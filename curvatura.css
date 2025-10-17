@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+.logo{
+    background-color: rgb(238, 220, 223);
+    display: block;
+    
+}
+img {
+    width: 250px;
+}
