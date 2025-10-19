@@ -4,12 +4,75 @@
     box-sizing: border-box;
     text-decoration:none;
 }
-
-.logo{
-    background-color: rgb(238, 220, 223);
-    display: block;
-    
+body {
+    background-image:linear-gradient(rgba(146, 86, 131, 0.5), rgba(240, 175, 226, 0.5)), 
+    url('fundosite.png'); 
+    background-size: cover; /* Faz a imagem cobrir todo o corpo */
+    background-position: center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar */
+    color: white; /* Para garantir que o texto sobre o fundo escuro seja legível */
 }
-img {
+.logo{
+    background-color: rgb(206, 140, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img {
     width: 250px;
 }
+.pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    height: 20vh;
+
+
+}
+#filhos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.text2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -170px;
+
+}
+.text3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 150px;
+    font-size: 30px;
+
+}
+
+a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0.5px solid white;
+    padding: 15px;
+}
+
+a:hover {
+    color: rgb(240, 98, 157);
+
+}
+ 
