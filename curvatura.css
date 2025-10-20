@@ -21,7 +21,7 @@ body {
 #img {
     width: 250px;
 }
-.pai{
+.saudação{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,21 +45,24 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     text-align: center;
-    margin-top: -170px;
+    margin-top: -190px;
 
 }
 .text3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+    /* tamanho da fonte do babado */
+    font-size: 20px; 
     text-align: center;
-    margin-top: 10px;
+    /* margem do topo */
+    margin-top: 150px; 
 }
-.links{
+.link{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    margin-top: 150px;
+    /* distância entre os babados */
+    /* gap: 50px; */
+    margin-top: 50px;
     font-size: 30px;
 
 }
@@ -67,12 +70,12 @@ body {
 a {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 0.5px solid white;
-    padding: 15px;
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 a:hover {
-    color: rgb(240, 98, 157);
-
+    color: rgb(240, 98, 157)
 }
  
