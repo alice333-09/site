@@ -24,7 +24,7 @@ body {
     margin-top: -20px;
 }
 hr{
-    border: 1px solid rgb(194, 87, 105);
+    border: 1px solid rgb(255, 232, 232);
     margin-top: 0px;
 }
 
@@ -32,8 +32,8 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
-    margin-top: 10px;
+    height: 25vh;
+    margin-top: 25px;
 
 }
 .text {
@@ -56,9 +56,9 @@ hr{
 }
 .text2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
 
 }
 .text3{
@@ -67,7 +67,7 @@ hr{
     font-size: 20px; 
     text-align: center;
     /* margem do topo */
-    margin-top: 100px; 
+    margin-top: 50px; 
 }
 .link{
     display: flex;
