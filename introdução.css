@@ -10,16 +10,43 @@ body{
    background-color:rgba(223, 132, 147, 0.527);
    
 }
+#img {
+    width: 250px;
+    margin-bottom: -70px;
+    margin-top: -20px;
+}
+/* #img:hover {
+  transition: 60px;
+} */
 .logo{
+    display: flex;
+    justify-content: center;
+}
+header{
     background-color: rgb(206, 140, 151);
+    box-shadow: 0 8px 50px rgba(134, 66, 78, 0.521);/* Sombra suave ao redor da caixa */
+}
+.ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    padding: 7px;
+    list-style:none; 
 }
-#img {
-    width: 250px;
-    margin-bottom: -40px;
-    margin-top: -20px;
+.li:hover{
+    font-size:16px;
+}
+.li:hover {
+    color:  rgb(255, 194, 194);
+}
+.li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    /* Peso da fonte */
+    font-weight: 800
 }
 #hr1{
     border: 1px solid rgb(255, 232, 232);
@@ -38,6 +65,14 @@ body{
     font-size: 30px;
     text-align: center;
     margin: 65px;
+    background-color: rgb(252, 242, 242);
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow:  0 8px 50px rgba(134, 66, 78, 0.521);
+    
+}
+.pp:hover{
+    transform: scale(1.05);
 }
 .pp2{
     color: rgb(122, 41, 75);
@@ -45,15 +80,29 @@ body{
     font-size: 30px;
     text-align: center;
     margin: 60px;
+    background-color:  rgb(252, 242, 242);
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow:  0 8px 50px rgba(134, 66, 78, 0.521);
+}
+.pp2:hover{
+    transform: scale(1.05);
 }
 .listas{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 30px; 
     color: rgb(122, 41, 75);
-    margin-left: 190px;
     display: flex;
     flex-direction: column;
     gap: 35px;
+    background-color:  rgb(252, 242, 242);
+    padding: 60px;
+    border-radius: 10px;
+    margin: 50px;
+    box-shadow:  0 8px 50px rgba(134, 66, 78, 0.521);
+}
+.listas:hover{
+    transform: scale(1.05);
 }
 #ul0{
     display: flex;
@@ -63,37 +112,28 @@ body{
     display: flex;
     gap: 235px;
 } 
-#hr2{
-    border: 1px solid rgb(255, 232, 232);
-    margin-bottom: -50px;
-    margin-top: 50px;
-}
-.infor{
-    background-color: rgb(206, 140, 151);
-    margin-top: 50px;
-     
-
-}
-#ul{
+.link{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 100px;
-    padding: 50px;
-    list-style:none; 
-
+    font-size: 40px;
+    margin: 50px;
 }
-.li:hover{
-    font-size:20px;
+#clic:hover{
+    font-size:35px;
 }
-.li:hover {
-    color:  rgb(255, 194, 194);
-}
-.li{
+#clic{
+    font-weight: 800;
+    color: rgb(252, 242, 242);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 15px;
+}
+#hr2{
+    border: 1px solid rgb(255, 232, 232);
+}
+#final{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin: 0px ;
+    background-color: rgb(206, 140, 151);
     color: white;
 }

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    /* list-style:none;  */
+}
+body{
+   background-color:rgba(223, 132, 147, 0.527);
+   
+}
+#img {
+    width: 250px;
+    margin-bottom: -70px;
+    margin-top: -20px;
+}
+/* #img:hover {
+  transition: 60px;
+} */
+.logo{
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-color: rgb(206, 140, 151);
+    box-shadow: 0 8px 50px rgba(134, 66, 78, 0.521);/* Sombra suave ao redor da caixa */
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 7px;
+    list-style:none; 
+}
+.li:hover{
+    font-size:16px;
+}
+.li:hover {
+    color:  rgb(255, 194, 194);
+}
+.li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    /* Peso da fonte */
+    font-weight: 800
+}
+#hr1{
+    border: 1px solid rgb(255, 232, 232);
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+#hr2{
+    border: 1px solid rgb(255, 232, 232);
+
+}
+#final{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin: 0px ;
+    background-color: rgb(206, 140, 151);
+}

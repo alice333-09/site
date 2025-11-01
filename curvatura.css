@@ -15,16 +15,40 @@ body {
     background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar */
     color: white; /* Para garantir que o texto sobre o fundo escuro seja legível */
 }
+#img {
+    width: 250px;
+    margin-bottom: -70px;
+    margin-top: -20px;
+    transition: all;
+}
 .logo{
+    display: flex;
+    justify-content: center;
+}
+header{
     background-color: rgb(206, 140, 151);
+    box-shadow: 0 8px 50px rgba(112, 21, 74, 0.815); /* Sombra suave ao redor da caixa */
+}
+ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    padding: 7px;
 }
-#img {
-    width: 250px;
-    margin-bottom: -40px;
-    margin-top: -20px;
+li:hover{
+    font-size:16px;
+}
+li:hover {
+    color:  rgb(255, 194, 194);
+}
+li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    /* Peso da fonte */
+    font-weight: 800
 }
 #hr1{
     border: 1px solid rgb(255, 232, 232);
@@ -42,8 +66,6 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 100px;
     text-align: center;
-    /* altura */
-    /* height: 10vh;  */
     margin-top: 80px;
 
 
@@ -68,16 +90,13 @@ body {
 .link{
     display: flex;
     justify-content: center;
-    /* distância entre os babados */
-    /* gap: 50px; */
     margin-top: 70px;
     font-size: 30px;
+    margin-bottom: 70px;
 
 }
 #clic:hover{
     font-size:35px;
-}
-#clic:hover {
     color:  rgb(255, 194, 194);
 }
 #clic{
@@ -89,33 +108,12 @@ body {
 }
 #hr2{
     border: 1px solid rgb(255, 232, 232);
-    margin-bottom: -50px;
-    margin-top: 50px;
 
 }
-.infor{
-    background-color: rgb(206, 140, 151);
-    margin-top: 50px;
-}
-ul{
+#final{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 100px;
-    padding: 50px;
+    padding: 8px;
+    margin: 0px ;
+    background-color: rgb(206, 140, 151);
 }
-li:hover{
-    font-size:20px;
-}
-li:hover {
-    color:  rgb(255, 194, 194);
-}
-li{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 15px;
-    color: white;
-}
-
