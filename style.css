@@ -1,0 +1,120 @@
+/* Parte fixa do site */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* tira o sublinhado do link */
+    text-decoration:none;
+    /* tirar os pontinhos da lista */
+    list-style:none; 
+}
+body {
+    background-image:linear-gradient(rgba(146, 86, 131, 0.5), rgba(240, 175, 226, 0.5)), 
+    url('imgs/fundosite.png');
+    background-size: cover; /* Faz a imagem cobrir todo o corpo */
+    background-position: center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar */
+    color: white; /* Para garantir que o texto sobre o fundo escuro seja legível */
+}
+#imggeral{
+    width: 150px;
+    margin-bottom: -35px;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+#headergeral{
+    background-color: rgb(206, 140, 151);
+    box-shadow: 0 8px 50px rgba(112, 21, 74, 0.815);
+}
+.ulgeral{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+.ligeral{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    color: white;
+    /* Peso da fonte */
+    font-weight: 800;
+    margin-top: -55px;
+    margin-right: 50px;
+    text-shadow: 2px 2px 8px rgba(112, 21, 74, 0.815);
+}
+.ligeral:hover{
+    color:  rgb(252, 205, 205);
+}
+#hr1{
+    border: 1px solid rgb(255, 232, 232);
+}
+.final{
+    background-color: rgb(206, 140, 151);
+    box-shadow: 0 -8px 50px rgba(112, 21, 74, 0.815);
+
+}
+#hr2{
+    border: 1px solid rgb(255, 232, 232);
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+/* Conteudo index */
+
+#imgindex {
+    width: 150px;
+    margin-bottom: -35px;
+    margin-top: -10px;
+}
+#logoindex{
+    display: flex;
+    justify-content: center;
+}
+#headerindex{
+    background-color: rgb(206, 140, 151);
+    box-shadow: 0 8px 50px rgba(112, 21, 74, 0.815);
+}
+.hss{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    text-shadow:  0 8px 50px rgba(112, 21, 74, 0.815);
+}
+.text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    margin-top: 80px;
+}
+.text2{
+    font-size: 23px;
+    margin-top: 30px;
+}
+.text3{  
+    font-size: 20px;   
+    margin: 50px; 
+}
+.link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+#clic:hover{
+    font-size:35px;
+    color:  rgb(255, 194, 194);
+}
+#clic{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  0 8px 50px rgba(112, 21, 74, 0.815);
+}
+
+/* Conteudo introdução */
+p{
+    margin-top: 100px;
+}
