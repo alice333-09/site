@@ -15,13 +15,12 @@
     margin-bottom: -35px;
     margin-top: -10px;
     margin-left: 50px;
-}
-.sombrageral{
-    box-shadow: 0 8px 50px rgba(112, 21, 74, 0.815);
+    transition: 1.5s;
 }
 #headergeral{
     background-color: rgb(206, 140, 151);
-    box-shadow: 0 8px 50px rgba(112, 21, 74, 0.815);
+    box-shadow: 5px 8px 20px 0px  rgb(167, 77, 92);
+    transition: 1.5s;
 }
 .ulgeral{
     display: flex;
@@ -46,7 +45,7 @@
 }
 .final{
     background-color: rgb(206, 140, 151);
-    box-shadow: 0 -8px 50px rgba(112, 21, 74, 0.815);
+    box-shadow: 0 -8px 50px rgb(167, 77, 92);
 }
 #hr2{
     border: 1px solid rgb(255, 232, 232);
@@ -65,7 +64,6 @@
     background-image:linear-gradient(rgba(146, 86, 131, 0.5), rgba(240, 175, 226, 0.5)), 
     url('imgs/fundosite.png');
     background-size: cover; /* Faz a imagem cobrir todo o corpo */
-    background-position: center center; /* Centraliza a imagem */
     background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar */
     color: white; /* Para garantir que o texto sobre o fundo escuro seja legível */
 }
@@ -73,6 +71,7 @@
     width: 150px;
     margin-bottom: -35px;
     margin-top: -10px;
+    transition: 1.5s;
 }
 #logoindex{
     display: flex;
@@ -80,7 +79,8 @@
 }
 #headerindex{
     background-color: rgb(206, 140, 151);
-    box-shadow: 0 8px 50px rgba(112, 21, 74, 0.815);
+    box-shadow: 0 8px 50px rgb(167, 77, 92);
+    transition: 1.5s;
 }
 .hss{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -121,11 +121,15 @@
 
 /* Conteudo e configurações da página introdução */
 
+#bodyintrodução{
+    background-image:linear-gradient(rgba(146, 86, 131, 0.5), rgba(240, 175, 226, 0.5)), 
+    url('imgs/fundositeintro.png');
+    background-size: cover; /* Faz a imagem cobrir todo o corpo */
+    background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar */
+    color: white; /* Para garantir que o texto sobre o fundo escuro seja legível */
+}
 .introdução{
     font-size: 20px;
-}
-p{
-    margin-top: 100px;
 }
 
 /* Conteudo e configurações da página curvaturas */
