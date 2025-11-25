@@ -46,7 +46,6 @@
 .final{
     /* largura */
     width: 100%;
-    bottom: 0;
     background-color: rgb(206, 140, 151);
     box-shadow: 0 -8px 50px rgb(167, 77, 92);
 }
@@ -128,7 +127,7 @@
 
 #bodyintrodução{
     background-image:
-    url('imgs/fundointro.jpg');
+    url('imgs/fundointro1.jpg');
     background-size: cover; /* Faz a imagem cobrir todo o corpo */
     background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar */
     color: white; /* Para garantir que o texto sobre o fundo escuro seja legível */
