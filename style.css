@@ -209,6 +209,14 @@
 
 /* Conteudo e configurações da página redes */
 
+#bodyredes{
+    background-image:
+    url('imgs/fundoredes.jpeg');
+    background-size: cover; /* Faz a imagem cobrir todo o corpo */
+    background-attachment: fixed; /* Opcional: mantém a imagem fixa ao rolar */
+    color: white; /* Para garantir que o texto sobre o fundo escuro seja legível */
+}
+
 .redes{
     font-size: 25px;
     color:  rgb(252, 205, 205);
