@@ -353,13 +353,8 @@
     color: rgb(122, 41, 75); 
     font-size: 40px;
     text-decoration: solid;
-}
-.hraa{
-    border: 1px solid rgb(255, 255, 255);
-    margin-bottom: 20px;
-    margin-right: 300px;
-    margin-left: 300px;
-
+    margin: 20px;
+    text-decoration: underline;
 }
 .apro:hover {
     transform: scale(1.05);
@@ -404,5 +399,10 @@
 }
 #i:hover{
     transform: scale(1.05);
+}
+.imgredes{
+    height: 350px;
+    width: 350px;
+    transition: 1.5s;
 }
 
